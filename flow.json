@@ -1,0 +1,27 @@
+{
+  "rules": [{
+    "title": "Rule 1",
+    "id": 1,
+    "body": "function(obj) {return obj.color === 'red';}",
+    "trueId": 2,
+    "falseId": 3
+  }, {
+    "title": "Rule 2",
+    "id": 2,
+    "body": "function(obj) {return obj.color === 'blue';}",
+    "trueId": null,
+    "falseId": 3
+  }, {
+    "title": "Rule 3",
+    "id": 3,
+    "body": "function(obj) {return !!obj;}",
+    "trueId": 4,
+    "falseId": null
+  }, {
+    "title": "Rule 4",
+    "id": 4,
+    "body": "function(obj) {return !!obj;}",
+    "trueId": null,
+    "falseId": null
+  }]
+}
