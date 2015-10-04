@@ -1,6 +1,6 @@
 (function(root, console) {
   // Flow constructor that handles everything
-  function Flow(json, object) {
+  function Flow(json) {
     this.rules = this.parseRules(json.rules);
   }
 
